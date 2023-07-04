@@ -1,0 +1,17 @@
+{
+  "$schema": "./node_modules/@tramvai/cli/schema.json",
+  "projects": {
+    "tramvai-sandbox" : {
+      "name": "tramvai-sandbox",
+      "root": "src",
+      "type": "application",
+      "sourceMap": true,
+      "postcss": {
+        "config": "src/postcss"
+      },
+      "fileSystemPages": {
+        "enabled": true
+      }
+    }
+  }
+}
