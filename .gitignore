@@ -6,7 +6,9 @@ yarn-debug.log*
 yarn-error.log*
 
 # Dependency directories
-node_modules/
+**/node_modules
+seats-form/node_modules
+passenger-form/node_modules
 
 # IDE
 .DS_Store
