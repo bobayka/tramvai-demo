@@ -35,7 +35,7 @@ export class Sample<T> {
     appStore: typeof STORE_TOKEN,
     selector: (state: {
       [key in R['storeName']]: InferStoreStateFromReducer<R>;
-    }) => T = identity
+    }) => T
   ) {
     this.subscribeContainer = {
       subscribe: (cb) => {

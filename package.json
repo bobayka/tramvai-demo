@@ -2,7 +2,7 @@
   "name": "tramvai-sandbox",
   "private": true,
   "scripts": {
-    "start": "tramvai start tramvai-sandbox",
+    "start": "CHILD_APP_DEBUG='passenger-form=http://localhost:4041/;seats-form=http://localhost:4040/'  npx tramvai start  tramvai-sandbox",
     "build": "tramvai build tramvai-sandbox",
     "preview": "tramvai start-prod tramvai-sandbox",
     "analyze": "tramvai analyze tramvai-sandbox",
