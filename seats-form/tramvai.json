@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/@tramvai/cli/schema.json",
+  "projects": {
+    "seats-form" : {
+      "name": "seats-form",
+      "root": "src",
+      "type": "child-app",
+      "postcss": {
+        "config": "src/postcss"
+      }
+    }
+  }
+}
